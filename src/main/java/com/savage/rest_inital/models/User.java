@@ -18,4 +18,13 @@ public class User {
     private String name;
     private String mail;
     private Integer priority;
+
+    public User() {
+    }
+
+    public User(String name, String mail, Integer priority) {
+        this.name = name;
+        this.mail = mail;
+        this.priority = priority;
+    }
 }
